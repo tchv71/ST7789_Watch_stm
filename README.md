@@ -1,6 +1,10 @@
 # ST7789_Watch_stm
 Analog Watch/Clock with STM32 RTC and ST7789 IPS
 
+forked from https://github.com/cbm80amiga/ST7789_Watch_stm
+
+-Added rotary encoder KY-040 instead of button to change time 
+
 # YouTube videos
 https://youtu.be/35Z0enhEYqM
 
@@ -21,11 +25,20 @@ https://youtu.be/jFGDFuLhdMc
  |#02| VCC |3.3V|
  |#03| SCL |PA5|
  |#04| SDA|PA7|
- |#05| RES|PA0 or any digital|
- |#06| DC|PA1 or any digital|
+ |#05| RES|PA2 or any digital|
+ |#06| DC|PA3 or any digital|
  |#07| BLK | NC|
+ 
+ Rotary encoder
+ 
+|Encoder pin|Encoder pin name|Arduino|
+|--|--|--|
+ |#01| GND | GND|
+ |#02| +| +3.3V|
+ |#03| SW| PB9|
+ |#04| DT| PB8|
+ |#05| CLK| PB7|
 
-
-If you find it useful and you want to buy me a coffee or a beer:
+If you find it useful and you want to buy Pavel a coffee or a beer:
 
 https://www.paypal.me/cbm80amiga
